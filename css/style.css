@@ -46,6 +46,7 @@ body {
     display: flex;
     justify-content: end;
     margin-bottom: 30px;
+    height: 75px;
 }
 
 .buttons {
@@ -102,6 +103,11 @@ body {
 .default {
     color: var(--color-blue-text);
     background-color: var(--color-button-default);
+}
+
+.lightblue {
+    color: var(--color-button-blue-text);
+    background-color: var(--color-blue-text);
 }
 
 @keyframes calculatorPowerUp {

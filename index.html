@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="./storage/img/favicon.webp" type="image/x-icon">
+    <script type="module" src="./js/app.js" defer></script>
 </head>
 <body>
     <section class="calculatorContainer">
@@ -14,34 +15,34 @@
             <div class="expression">Calculator App</div>
             <div class="currentResult">Welcome!</div>
         </article>
-        <section class="buttons">
-            <article class="buttonsLeft">
+        <article class="buttons">
+            <div class="buttonsLeft">
                 <button class="button gray" id="buttonAc">Ac</button>
                 <button class="button gray" id="buttonRemove">
                     <i class="bi bi-eraser-fill"></i>
                 </button>
-                <button class="button blue" id="buttonDivision">/</button>
-                <button class="button default" id="button7">7</button>
-                <button class="button default" id="button8">8</button>
-                <button class="button default" id="button9">9</button>
-                <button class="button default" id="button4">4</button>
-                <button class="button default" id="button5">5</button>
-                <button class="button default" id="button6">6</button>
-                <button class="button default" id="button1">1</button>
-                <button class="button default" id="button2">2</button>
-                <button class="button default" id="button3">3</button>
-                <button class="button default" id="button0">0</button>
-                <button class="button default" id="buttonDot">.</button>            
-            </article>
-            <article class="buttonsRight">
-                <button class="button blue" id="buttonProduct">
+                <button class="button blue" id="buttonDivision" value="/">/</button>
+                <button class="button default" id="button7" value="7">7</button>
+                <button class="button default" id="button8" value="8">8</button>
+                <button class="button default" id="button9" value="9">9</button>
+                <button class="button default" id="button4" value="4">4</button>
+                <button class="button default" id="button5" value="5">5</button>
+                <button class="button default" id="button6" value="6">6</button>
+                <button class="button default" id="button1" value="1">1</button>
+                <button class="button default" id="button2" value="2">2</button>
+                <button class="button default" id="button3" value="3">3</button>
+                <button class="button default" id="button0" value="0">0</button>
+                <button class="button default" id="buttonDot" value=".">.</button>            
+            </div>
+            <div class="buttonsRight">
+                <button class="button blue" id="buttonProduct" value="*">
                     <i class="bi bi-x"></i>
                 </button>
-                <button class="button blue" id="buttonMinus">-</button>           
-                <button class="button blue" id="buttonPlus">+</button>
+                <button class="button blue" id="buttonMinus" value="-">-</button>           
+                <button class="button blue" id="buttonPlus" value="+">+</button>
                 <button class="button lightblue" id="buttonEqual">=</button>           
-            </article>
-        </section>
+            </div>
+        </article>
     </section>
 </body>
 </html>
